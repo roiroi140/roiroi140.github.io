@@ -1,12 +1,16 @@
+body {
+    background-color: #808080;
+}
+
 .box {
-    border: 2px solid #333;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px;
-    background-color: #555555;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-  	color: #FFFFFF
+    border: 2px solid #333; /*枠の色*/
+    border-radius: 10px; /*枠の太さ*/
+    padding: 20px; /*中の余白*/
+    margin: 20px auto; /*外の余白*/
+    width: 500px; /*横幅*/
+    background-color: #555555; /*背景色*/
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1); /*枠の影*/
+  	color: #FFFFFF /*文字色*/
 }
 
 .name h1 {
@@ -19,5 +23,11 @@
 }
 
 .skill {
-display: flex;
+    text-align: center; /* 全体を中央寄せに */
+}
+
+.skill img {
+    display: inline-block; /* 横並びにする */
+    width: 45%; /* 横幅を少し小さく調整 */
+    margin: 10px; /* 画像の間に余白を追加 */
 }
