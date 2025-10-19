@@ -31,3 +31,11 @@ body {
     width: 45%; /* 横幅を少し小さく調整 */
     margin: 10px; /* 画像の間に余白を追加 */
 }
+
+.btn {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
