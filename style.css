@@ -7,10 +7,11 @@ body {
     border-radius: 10px; /*枠の太さ*/
     padding: 20px; /*中の余白*/
     margin: 20px auto; /*外の余白*/
-    width: 500px; /*横幅*/
+    width: 90%;
+    max-width: 500px;
     background-color: #555555; /*背景色*/
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.1); /*枠の影*/
-  	color: #FFFFFF /*文字色*/
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3); /*枠の影*/
+  	color: #FFFFFF; /*文字色*/
 }
 
 .name h1 {
