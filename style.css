@@ -2,6 +2,10 @@ body {
     background-color: #101010;
 }
 
+img {
+  filter: invert(100%);
+}
+
 .box {
   position: relative;
   background-color: #222;
